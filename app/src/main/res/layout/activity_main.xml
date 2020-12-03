@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mis generos de interes son"
+        android:layout_marginBottom="50dp"
+        android:textColor="#191717"
+           android:fontFamily="@font/dmsansbold"
+        android:textSize="20sp"
+        />
+
+
+        <CheckBox
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/drama"
+            android:text="Drama"
+            android:padding="1dp"
+            android:drawableRight="@drawable/checkbox"
+            android:layout_margin="5dp"
+            android:button="@null"
+
+            >
+        </CheckBox>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="#D3D0D0">
+
+        </View>
+
+        <CheckBox
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/comedia"
+            android:text="Comedia"
+            android:drawableRight="@drawable/checkbox"
+            android:padding="1dp"
+            android:layout_margin="5dp"
+            android:button="@null"
+
+
+            >
+        </CheckBox>
+
+         <View
+             android:layout_width="300dp"
+             android:layout_height="1dp"
+             android:background="#D3D0D0">
+
+         </View>
+
+        <CheckBox
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/terror"
+            android:text="Terror"
+            android:padding="1dp"
+            android:layout_margin="5dp"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox"
+
+            >
+
+        </CheckBox>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="#D3D0D0">
+
+        </View>
+
+        <CheckBox
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/accion"
+            android:text="Accion"
+            android:padding="1dp"
+            android:layout_margin="5dp"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox"
+
+            >
+
+        </CheckBox>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="#D3D0D0">
+
+        </View>
+        <CheckBox
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/aventura"
+            android:text="Aventura"
+            android:padding="1dp"
+            android:layout_margin="5dp"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox"
+
+            >
+
+        </CheckBox>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="#D3D0D0">
+
+        </View>
+
+
+        <CheckBox
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/musicales"
+            android:text="Musicales"
+            android:padding="1dp"
+            android:layout_margin="5dp"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox"
+
+            >
+
+        </CheckBox>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="#D3D0D0">
+
+        </View>
+
+
+        <CheckBox
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/suspenso"
+            android:text="Suspenso"
+            android:padding="1dp"
+            android:layout_margin="5dp"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox"
+
+            >
+
+        </CheckBox>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="#D3D0D0">
+
+        </View>
+        <CheckBox
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cienciaFiccion"
+            android:text="Ciencia Ficcion"
+            android:padding="1dp"
+            android:layout_margin="5dp"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox"
+
+            >
+
+        </CheckBox>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="#D3D0D0">
+
+        </View>
+
+        <Button
+            android:layout_width="217dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="30dp"
+            android:text="Continuar"
+            android:onClick="continuar"
+            android:fontFamily="@font/dmsansbold"
+            android:textColor="#EAE1E1"
+            android:background="@drawable/registrarsebtn">
+
+        </Button>
+
+
+
+</LinearLayout>
